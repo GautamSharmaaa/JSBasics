@@ -36,3 +36,6 @@ console.log(Math.floor(Date.now()/1000));
 // `${newdate.getMonth()} and the time is 
 // known as string interpolation
 
+myDate.toLocaleString("default", {
+    weekday: "long",
+})
